@@ -8,7 +8,38 @@ body {
   background: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  width: 1158px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
 .header-logo {
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -21,8 +52,20 @@ body {
 .logo-studio {
   color: #2e2f42;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  margin-right: 332px;
+  display: flex;
+  gap: 40px;
+}
 
 .nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -35,8 +78,16 @@ body {
   color: #404bbf;
 }
 
+.address {
+  display: flex;
+  gap: 40px;
+}
+
 .contact {
   font-style: normal;
+}
+.contact-item :last-child {
+  margin-right: 0;
 }
 .contact-link {
   font-size: 16px;
@@ -54,7 +105,14 @@ body {
 .main {
   background-color: #2e2f42;
 }
+.main-container {
+  height: 600px;
+}
 .main-title {
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
