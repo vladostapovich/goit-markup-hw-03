@@ -5,9 +5,11 @@ body {
 }
 /* header */
 .header {
-  background: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
-
+img {
+  display: block;
+}
 h1,
 h2,
 h3,
@@ -34,9 +36,9 @@ a {
 }
 .container {
   width: 1158px;
-
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-logo {
   margin-right: 76px;
@@ -48,24 +50,24 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
-.logo-studio {
-  color: #2e2f42;
-}
 .header-nav {
   display: flex;
   align-items: center;
 }
+
+.logo-studio {
+  color: #2e2f42;
+}
+.container-header {
+  display: flex;
+}
 .menu-nav {
-  margin-right: 332px;
   display: flex;
   gap: 40px;
 }
 
 .nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -78,11 +80,10 @@ a {
   color: #404bbf;
 }
 
-.address {
+.contact-address {
   display: flex;
   gap: 40px;
 }
-
 .contact {
   font-style: normal;
 }
