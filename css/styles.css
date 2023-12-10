@@ -82,6 +82,7 @@ a {
   color: #404bbf;
 }
 
+/* address */
 .contact-address {
   display: flex;
   gap: 40px;
@@ -104,7 +105,7 @@ a {
   color: #404bbf;
 }
 
-/* main */
+/* main  section button*/
 .main {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -143,6 +144,20 @@ a {
 .button:focus {
   background-color: #404bbf;
 }
+/* section 2-3 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-caption {
   display: flex;
   gap: 24px;
@@ -191,7 +206,7 @@ a {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
-/* section4 */
+/* section4*/
 
 .way {
   display: flex;
@@ -203,7 +218,7 @@ a {
   width: calc((100% - 48px) / 3);
 }
 .caption-image {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
