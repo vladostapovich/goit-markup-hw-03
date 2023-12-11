@@ -3,6 +3,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: auto;
+}
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -75,6 +81,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
 }
 
 .nav:hover,
@@ -93,6 +100,7 @@ a {
 .contact-item :last-child {
   margin-right: 0;
 }
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -111,7 +119,6 @@ a {
   padding: 188px 0;
 }
 .main-container {
-  height: 600px;
 }
 .main-title {
   max-width: 496px;
@@ -175,7 +182,6 @@ a {
   color: #2e2f42;
 }
 .text {
-  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -196,6 +202,9 @@ a {
 .people {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.text-people {
+  text-align: center;
 }
 .bloc-img {
   display: flex;
@@ -255,4 +264,5 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
 }
